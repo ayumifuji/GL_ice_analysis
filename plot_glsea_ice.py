@@ -7,14 +7,6 @@ dir='tmp/'
 filename=dir+'2024_020_glsea_ice.nc'
 file=xr.open_dataset(filename)
 
-dimensions = dict(file.dims)
-variables = file.variables
-#attributes = file.attrs
-#print(dimensions)
-#print(" ")
-#print(variables)
-#print(" ")
-#print(attributes)
 
 
 # specific area to focus, by longitude & latitude 
@@ -23,7 +15,7 @@ zoom_extent = [-84.07, -83.26, 43.56, 44.09]
 
 fig, ax = plt.subplots(2, 1, subplot_kw=dict(projection=ccrs.PlateCarree()),figsize=(4,6))
 
-
+# first row - the whole Great Lakes
 file['ice_concentration'].plot(
     ax=ax[0],
     transform=ccrs.PlateCarree(),  # this is important!
@@ -41,7 +33,7 @@ gl.ylabels_right = False
 ax[0].coastlines()  # cartopy function
 
 
-
+# second row - the zoomed area
 file['ice_concentration'].plot(
     ax=ax[1],
     transform=ccrs.PlateCarree(),  # this is important!
