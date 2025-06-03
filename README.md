@@ -5,7 +5,7 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 
 ## Scripts
 
-- download.sh: A bash shell script to download GLESA daily ice data files from the THREDDS server. Start & end dates can be specified at the header.
+- download.sh: A bash shell script to download GLESA daily ice data files from the THREDDS server. Start & end dates can be specified at the header. Note that GLSEA ice data files are available back to 1995. 
 
 - plot_glsea_ice.py: A python script to plot a spatial map of the GLESA daily ice data for a given day. Note that this script assumes a data file is included under the glsea_datafiles directory. This script also plots a spatial map of ice concentration over a Zoomed area (specified by lat & lon extent).
 
