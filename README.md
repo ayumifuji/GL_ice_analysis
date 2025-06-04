@@ -13,6 +13,10 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 
 - timeseries_analysis.py: A Python script to read the text timeseries file calculated by calculate_regional_mean_ice_coverage.py, plot daily timeseries, overlay monthly mean timeseries & annual maximum values. 
 
+## Directories
+- glses_datafiles: This directory should contain downloaded GLSEA files. On the repo, it's empty (no data is stored, they need to be downloaded from the CoastWatch website).
+- shapefiles: This directory contains geography shapefiles that are used by plot_glsea_ice.py. When plotting spatial maps, geography information, such as rivers and state boundaries, will be added based on these shapefiles. 
+
 
 ## Usage
 ### download.sh
