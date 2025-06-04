@@ -16,14 +16,33 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 
 ## Usage
 ### download.sh
+ 
+Edit "date_start" and "date_end" in the header to specify the time range for which you'd like to download files.  
+On a terminal, type below.
+
 ``` 
 ./download.sh
 ``` 
 
+The date command currently used is for Mac. There's also an option for Linux bash. Comment out the lines for Mac and uncomment the lines for Linux bash if using Linux bash.
+
 ### plot_glsea_ice.py 
+
+``` 
+python plot_glsea_ice.py
+``` 
+
 ### calculate_regional_mean_ice_coverage.py
+
+```
+python calculate_regional_mean_ice_coverage.py
+```
+
 ### timeseries_analysis.py
 
-    
+```
+python timeseries_analysis.py
+
+```    
 
 
