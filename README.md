@@ -11,6 +11,15 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 
 - calculate_regional_mean_ice_coverage.py: A python script to calculate mean ice coverage for a given area, defined by a polygon. The default is for Saginaw Bay. An output is a text file that include a timeseries of mean ice coverage.
 
--  
+- timeseries_analysis.py: A Python script to read the text timeseries file calculated by calculate_regional_mean_ice_coverage.py, plot daily timeseries, overlay monthly mean timeseries & annual maximum values. 
+
+
+## Usage
+### download.sh
+### plot_glsea_ice.py 
+### calculate_regional_mean_ice_coverage.py
+### timeseries_analysis.py
+
+    
 
 
