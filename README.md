@@ -1,14 +1,7 @@
 # Great Lakes ice data analysis
 
-This repo contains a set of scripts to download daily spatial ice concentration data files from Great Lakes Surface Environmental Analysis (GLSEA), plot spatial maps, calculate & creat timeseries of mean ice coverage over a select area (defined by a polygon), and conduct timeseries analyses. Necessary libraries are below:
+This repo contains a set of scripts to download daily spatial ice concentration data files from Great Lakes Surface Environmental Analysis (GLSEA), plot spatial maps, calculate & creat timeseries of mean ice coverage over a select area (defined by a polygon), and conduct timeseries analyses. 
 
-- numpy
-- matplotlib
-- cartopy
-- xarray
-- pandas
-- shapely
-- datetime
 
 ## Scripts
 
@@ -28,6 +21,16 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 ## Usage
 ### Set up environment
 A Python environment is needed. The Anaconda distribution is popular and easy to install (see https://www.anaconda.com/download). There are others.
+Necessary libraries are below:
+
+- numpy
+- matplotlib
+- cartopy
+- xarray
+- pandas
+- shapely
+- datetime
+
 
 
 
