@@ -16,6 +16,10 @@ This repo contains a set of scripts to download daily spatial ice concentration 
 
 ## Usage
 ### download.sh
+``` 
+./download.sh
+``` 
+
 ### plot_glsea_ice.py 
 ### calculate_regional_mean_ice_coverage.py
 ### timeseries_analysis.py
