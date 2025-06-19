@@ -37,7 +37,7 @@ Necessary libraries are below:
 ### download.sh
  
 Edit "date_start" and "date_end" in the header to specify the time range for which you'd like to download files.  
-This bash script needs to be run on a terminal (e.g., Linux or Mac terminal, Spyder's console).On a terminal, type below.
+This bash script needs to be run on a terminal (e.g., Linux or Mac terminal, Spyder's console). On a terminal, type below.
 
 
 ``` 
