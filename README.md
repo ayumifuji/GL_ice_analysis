@@ -37,13 +37,20 @@ Necessary libraries are below:
 ### download.sh
  
 Edit "date_start" and "date_end" in the header to specify the time range for which you'd like to download files.  
-On a terminal, type below.
+This bash script needs to be run on a terminal (e.g., Linux or Mac terminal, Spyder's console).On a terminal, type below.
+
 
 ``` 
 ./download.sh
 ``` 
 
 The date command currently used is for Mac. There's also an option for Linux bash. Comment out the lines for Mac and uncomment the lines for Linux bash if using Linux bash.
+
+download.sh requires the "wget" command. If the system does not have "wget", it needs to be installed. There is an option for conda install.
+
+```
+conda install anaconda::wget
+```
 
 ### plot_glsea_ice.py 
 
