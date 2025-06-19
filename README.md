@@ -64,6 +64,8 @@ python plot_glsea_ice.py
 python calculate_regional_mean_ice_coverage.py
 ```
 
+Note: The 'loffset' parameter in Pandas' resample method is deprecated since version 1.1.0.
+
 ### timeseries_analysis.py
 
 ```
