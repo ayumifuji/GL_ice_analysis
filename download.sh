@@ -2,13 +2,15 @@
 
 # set start and end dates
 date_start="2023-10-01"
-date_end="2023-11-02"
-#date_end="2025-06-01"
+date_end="2025-06-01"
 date_now=$date_start
 
 
 # NOAA CoastWatch Great Lakes node THREDDS server
-URL="https://apps.glerl.noaa.gov/thredds/fileServer/glsea_ice_nc/"
+#URL="https://apps.glerl.noaa.gov/thredds/fileServer/glsea_ice_nc/"
+
+# In case of ERDAP server
+URL="https://apps.glerl.noaa.gov/erddap/files/GL_Ice_Concentration_GCS/"
 
 
 # loop through days 
