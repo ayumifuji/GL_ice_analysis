@@ -28,7 +28,7 @@ fig, ax = plt.subplots()
 
 im = ax.imshow( hov_data.values,
     aspect='auto', origin='lower',
-    cmap='YlGn', extent=[
+    cmap='YlGn', interpolation='none', extent=[
         hov_data.columns.min(), hov_data.columns.max(),
         hov_data.index.min(), hov_data.index.max()
     ]
@@ -49,7 +49,8 @@ ax.set_ylabel('Winer Year')
 
 cbar = fig.colorbar(im, ax=ax, label='ice concentration [%]')
 
-plt.show()
+plt.savefig('duration.png',dpi=100)
+#plt.show()
 
 
 
